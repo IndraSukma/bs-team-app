@@ -1,0 +1,37 @@
+{
+  "name": "bs-team-app-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "watch": "webpack watch",
+    "build-dev": "webpack build --progress",
+    "build-prod": "webpack build --mode=production --progress",
+    "preview": "http-server dist -p 4321 -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.8.1",
+    "glob-all": "^3.3.1",
+    "handlebars": "^4.7.7",
+    "html-bundler-webpack-plugin": "^2.0.1",
+    "nunjucks": "^3.2.4",
+    "postcss-loader": "^7.3.3",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.0"
+  }
+}

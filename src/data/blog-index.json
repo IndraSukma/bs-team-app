@@ -1,0 +1,10 @@
+{
+  "title": "Blog Index",
+  "nav": {
+    "type": "default",
+    "itemActive": "blog"
+  },
+  "class": {
+    "body": "bg-light"
+  }
+}

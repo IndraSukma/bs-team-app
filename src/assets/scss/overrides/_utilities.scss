@@ -1,0 +1,211 @@
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-weight":
+      map-merge(
+        map-get($utilities, "font-weight"),
+        (
+          values:
+            map-merge(
+              map-get(map-get($utilities, "font-weight"), "values"),
+              (
+                black: $font-weight-black,
+              )
+            ),
+        )
+      ),
+    "position":
+      map-merge(
+        map-get($utilities, "position"),
+        (
+          responsive: true,
+        )
+      ),
+    "top":
+      map-merge(
+        map-get($utilities, "top"),
+        (
+          responsive: true,
+        )
+      ),
+    "bottom":
+      map-merge(
+        map-get($utilities, "bottom"),
+        (
+          responsive: true,
+        )
+      ),
+    "start":
+      map-merge(
+        map-get($utilities, "start"),
+        (
+          responsive: true,
+        )
+      ),
+    "end":
+      map-merge(
+        map-get($utilities, "end"),
+        (
+          responsive: true,
+        )
+      ),
+    "translate-middle":
+      map-merge(
+        map-get($utilities, "translate-middle"),
+        (
+          responsive: true,
+        )
+      ),
+    "border":
+      map-merge(
+        map-get($utilities, "border"),
+        (
+          responsive: true,
+        )
+      ),
+    "border-top":
+      map-merge(
+        map-get($utilities, "border-top"),
+        (
+          responsive: true,
+        )
+      ),
+    "border-end":
+      map-merge(
+        map-get($utilities, "border-end"),
+        (
+          responsive: true,
+        )
+      ),
+    "border-bottom":
+      map-merge(
+        map-get($utilities, "border-bottom"),
+        (
+          responsive: true,
+        )
+      ),
+    "border-start":
+      map-merge(
+        map-get($utilities, "border-start"),
+        (
+          responsive: true,
+        )
+      ),
+    "border-width":
+      map-merge(
+        map-get($utilities, "border-width"),
+        (
+          responsive: true,
+        )
+      ),
+    "border-opacity":
+      map-merge(
+        map-get($utilities, "border-opacity"),
+        (
+          responsive: true,
+        )
+      ),
+    "width":
+      map-merge(
+        map-get($utilities, "width"),
+        (
+          responsive: true,
+        )
+      ),
+    "max-width":
+      map-merge(
+        map-get($utilities, "max-width"),
+        (
+          responsive: true,
+        )
+      ),
+    "viewport-width":
+      map-merge(
+        map-get($utilities, "viewport-width"),
+        (
+          responsive: true,
+        )
+      ),
+    "min-viewport-width":
+      map-merge(
+        map-get($utilities, "min-viewport-width"),
+        (
+          responsive: true,
+        )
+      ),
+    "height":
+      map-merge(
+        map-get($utilities, "height"),
+        (
+          responsive: true,
+        )
+      ),
+    "max-height":
+      map-merge(
+        map-get($utilities, "max-height"),
+        (
+          responsive: true,
+        )
+      ),
+    "viewport-height":
+      map-merge(
+        map-get($utilities, "viewport-height"),
+        (
+          responsive: true,
+        )
+      ),
+    "min-viewport-height":
+      map-merge(
+        map-get($utilities, "min-viewport-height"),
+        (
+          responsive: true,
+        )
+      ),
+    "rounded":
+      map-merge(
+        map-get($utilities, "rounded"),
+        (
+          responsive: true,
+        )
+      ),
+    "rounded-top":
+      map-merge(
+        map-get($utilities, "rounded-top"),
+        (
+          responsive: true,
+        )
+      ),
+    "rounded-end":
+      map-merge(
+        map-get($utilities, "rounded-end"),
+        (
+          responsive: true,
+        )
+      ),
+    "rounded-bottom":
+      map-merge(
+        map-get($utilities, "rounded-bottom"),
+        (
+          responsive: true,
+        )
+      ),
+    "rounded-start":
+      map-merge(
+        map-get($utilities, "rounded-start"),
+        (
+          responsive: true,
+        )
+      ),
+    "shadow": (
+      property: box-shadow,
+      class: shadow,
+      responsive: true,
+      values: (
+        0: none,
+        1: $box-shadow-sm,
+        2: $box-shadow,
+        3: $box-shadow-lg,
+      ),
+    ),
+  )
+);

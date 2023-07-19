@@ -1,0 +1,7 @@
+{
+  "title": "Home",
+  "nav": {
+    "type": "white",
+    "itemActive": "home"
+  }
+}

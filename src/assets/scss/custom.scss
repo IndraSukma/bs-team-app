@@ -1,0 +1,129 @@
+// Utility Classes
+.w-30rem {
+  width: 30rem !important;
+}
+
+.h-24rem {
+  height: 24rem !important;
+}
+
+.-mx-8 {
+  margin-left: -2rem !important;
+  margin-right: -2rem !important;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.line-clamp-4 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+.line-clamp-8 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+}
+
+// Custom Classes
+.form-tint-white {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  &:focus {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+  }
+
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.75);
+  }
+}
+
+.comment > .comment {
+  padding-left: 2rem;
+}
+
+.btn.swiper-prev:not(:focus-visible),
+.btn.swiper-next:not(:focus-visible) {
+  box-shadow: 0 0.5rem 1rem rgba(31, 31, 51, 0.07);
+}
+
+// Overrides
+.swiper,
+swiper-container {
+  overflow: visible;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  // Utility Classes
+  .w-md-52rem {
+    width: 52rem !important;
+  }
+
+  .h-md-31rem {
+    height: 31rem !important;
+  }
+
+  .-end-md-70 {
+    right: -70% !important;
+  }
+
+  .-mx-md-4 {
+    margin-left: -1rem !important;
+    margin-right: -1rem !important;
+  }
+
+  // Custom Classes
+  .comment > .comment,
+  .comment .comment-body {
+    padding-left: 3.25rem;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  // Utility Classes
+  .w-lg-60rem {
+    width: 60rem !important;
+  }
+
+  .h-lg-32rem {
+    height: 32rem !important;
+  }
+
+  .h-lg-38rem {
+    height: 38rem !important;
+  }
+
+  .-end-lg-40 {
+    right: -40% !important;
+  }
+
+  .navbar-white {
+    --bs-navbar-color: rgba(var(--bs-white-rgb), 0.8);
+    --bs-navbar-hover-color: rgba(var(--bs-white-rgb), 1);
+    --bs-navbar-disabled-color: rgba(var(--bs-white-rgb), 0.6);
+    --bs-navbar-active-color: rgba(var(--bs-white-rgb), 1);
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  // Utility Classes
+  .-end-xxl-30 {
+    right: -30% !important;
+  }
+}

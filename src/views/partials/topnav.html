@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-lg bg-transparent {{ "navbar-white" if nav.type == "white" }}">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="{{ "@img/logo-team-light.svg" if nav.type == "white" else "@img/logo-team-dark.svg" }}" alt="Team." height="28" width="86" />
+    </a>
+    <button class="navbar-toggler border-0 d-flex d-lg-none {{ "text-white" if nav.type == "white" }}" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar-offcanvas">
+      <span class="material-symbols-rounded fs-inherit">menu</span>
+    </button>
+    <div class="offcanvas offcanvas-end" id="navbar-offcanvas" tabindex="-1">
+      <div class="offcanvas-header py-6">
+        <h5 class="offcanvas-title fs-4">Menu</h5>
+        <button type="button" class="btn d-flex border-0 p-0" data-bs-dismiss="offcanvas">
+          <span class="material-symbols-rounded">close</span>
+        </button>
+      </div>
+      <div class="offcanvas-body align-items-lg-center pt-0 {{ "flex-lg-row-reverse" if nav.type != "white" }}">
+        <div class="d-flex gap-4 mb-4 mb-lg-0 {{ "d-lg-none" if nav.type == "white" }}">
+          <button type="button" class="w-50 w-lg-auto btn btn-tint-dark bg-transparent border-dark border-opacity-10 border-lg-0">Log In</button>
+          <button type="button" class="w-50 w-lg-auto btn btn-tint-teal">Get Access</button>
+        </div>
+        <ul class="navbar-nav flex-grow-1">
+          <li class="nav-item">
+            <a class="nav-link mx-lg-3 {{ "active" if nav.itemActive == "home" }}" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-3 {{ "active" if nav.itemActive == "product" }}" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-3 {{ "active" if nav.itemActive == "services" }}" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-3 {{ "active" if nav.itemActive == "blog" }}" href="blog-index.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-lg-3 {{ "active" if nav.itemActive == "contact" }}" href="#">Contact</a>
+          </li>
+        </ul>
+        {% if nav.type == "white" %}
+          <div class="d-none d-lg-flex gap-4">
+            <button type="button" class="btn btn-tint-white bg-transparent">Log In</button>
+            <button type="button" class="btn btn-tint-white">Get Access</button>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</nav>

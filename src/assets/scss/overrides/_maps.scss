@@ -1,0 +1,17 @@
+$theme-colors: (
+  "teal": $teal,
+  "indigo": $indigo,
+  "purple": $purple,
+  "pink": $pink,
+  "yellow": $yellow,
+  "white": $white,
+  "light": $light,
+  "dark": $dark,
+);
+
+$font-sizes: map-merge(
+  $font-sizes,
+  (
+    inherit: inherit,
+  )
+);
