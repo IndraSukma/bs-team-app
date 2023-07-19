@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Team App - Home</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,700,0..1,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/main.min.css" />
+    <link rel="stylesheet" href="assets/css/custom.min.css" />
+    <script defer src="assets/js/main.min.js"></script>
+    <link rel="stylesheet" href="assets/css/index.min.css" />
+    <script defer src="assets/js/index.min.js"></script>
+  </head>
+  <body class="bg-light">
+    <div class="overflow-x-hidden">
+      <header class="main-banner d-flex flex-column">
+        <nav class="navbar navbar-expand-lg bg-transparent navbar-white">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/img/logo-team-light.svg" alt="Team." height="28" width="86" />
+            </a>
+            <button class="navbar-toggler border-0 d-flex d-lg-none text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar-offcanvas">
+              <span class="material-symbols-rounded fs-inherit">menu</span>
+            </button>
+            <div class="offcanvas offcanvas-end" id="navbar-offcanvas" tabindex="-1">
+              <div class="offcanvas-header py-6">
+                <h5 class="offcanvas-title fs-4">Menu</h5>
+                <button type="button" class="btn d-flex border-0 p-0" data-bs-dismiss="offcanvas">
+                  <span class="material-symbols-rounded">close</span>
+                </button>
+              </div>
+              <div class="offcanvas-body align-items-lg-center pt-0">
+                <div class="d-flex gap-4 mb-4 mb-lg-0 d-lg-none">
+                  <button type="button" class="w-50 w-lg-auto btn btn-tint-dark bg-transparent border-dark border-opacity-10 border-lg-0">Log In</button>
+                  <button type="button" class="w-50 w-lg-auto btn btn-tint-teal">Get Access</button>
+                </div>
+                <ul class="navbar-nav flex-grow-1">
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-3 active" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-3" href="#">Product</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-3" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-3" href="blog-index.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-3" href="#">Contact</a>
+                  </li>
+                </ul>
+
+                <div class="d-none d-lg-flex gap-4">
+                  <button type="button" class="btn btn-tint-white bg-transparent">Log In</button>
+                  <button type="button" class="btn btn-tint-white">Get Access</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="container position-relative mt-auto mb-md-auto pb-24">
+          <div class="row">
+            <div class="col">
+              <div class="text-white text-center text-md-start">
+                <h1 class="display-4 mb-6">
+                  Instant Collaboration <br />
+                  for remote teams
+                </h1>
+                <p class="fs-5 mb-16">
+                  <span class="d-md-block">All-in-one place for your remote team to chat, </span>
+                  <span>collaborate and track project progress.</span>
+                </p>
+              </div>
+              <form class="row g-4">
+                <div class="col-12 col-md-4 col-lg-3">
+                  <label class="visually-hidden">Email</label>
+                  <input type="email" placeholder="Email" class="form-control" />
+                </div>
+                <div class="col-12 col-md-auto d-grid">
+                  <button type="submit" class="btn btn-teal">Get Early Access</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="pt-16 pb-24 pt-md-24 pb-md-32">
+        <div class="container position-relative h-md-32rem h-lg-38rem mb-24">
+          <div class="w-30rem w-md-52rem w-lg-60rem position-md-absolute top-md-50 translate-middle-md-y -end-md-70 -end-lg-40 -end-xxl-30 mb-12 mb-md-0">
+            <img src="assets/img/app-mockup.webp" alt="App Mockup" class="img-fluid" />
+          </div>
+          <div class="row h-100 align-items-center">
+            <div class="col-12 col-md-6 col-lg-5">
+              <h2 class="display-4 mb-6">
+                Your hub for <br />
+                teamwork
+              </h2>
+              <p class="text-body-secondary mb-14">
+                Project discussions, important documents, free food announcements; they all live tidily together in Team. With your team and information in one easily searchable place, collaborating
+                online is as easy as collaborating in person.
+              </p>
+              <a class="icon-link icon-link-hover text-decoration-none text-teal fw-bold" href="#">
+                Learn More
+                <span class="material-symbols-rounded bi">chevron_right</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container mb-24">
+          <div class="row align-items-md-center justify-content-lg-between mb-24">
+            <div class="col-12 col-md-6 mb-14 mb-md-0">
+              <img src="assets/img/task-management.webp" alt="Task Management" class="img-fluid rounded" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-5">
+              <h2 class="display-4 mb-6">
+                Simple task <br />
+                management
+              </h2>
+              <p class="text-body-secondary mb-14">
+                Task management with Team is as simple as it gets. No complicated layout and need for user training. Your team members will intuitively know how to navigate the platform. <br />
+                It’s so simple, a baby could do it!
+              </p>
+              <a class="icon-link icon-link-hover text-decoration-none text-teal fw-bold" href="#">
+                Learn More
+                <span class="material-symbols-rounded bi">chevron_right</span>
+              </a>
+            </div>
+          </div>
+          <div class="row align-items-md-center justify-content-lg-between flex-md-row-reverse">
+            <div class="col-12 col-md-6 mb-14 mb-md-0">
+              <img src="assets/img/scheduling.webp" alt="Scheduling" class="img-fluid rounded" />
+            </div>
+            <div class="col-12 col-md-6 col-lg-5">
+              <h2 class="display-4 mb-6">
+                Scheduling that <br />
+                actually works
+              </h2>
+              <p class="text-body-secondary">Integrate a Team calendar with your favourite calendar app, be it Google Calendar or iCal.</p>
+              <p class="text-body-secondary mb-14">Each team member works with their favourite calendar, while all the data is synced with the master calendar.</p>
+              <a class="icon-link icon-link-hover text-decoration-none text-teal fw-bold" href="#">
+                Learn More
+                <span class="material-symbols-rounded bi">chevron_right</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <h2 class="display-4 mb-14 mb-md-16 mb-lg-24 text-center">What people say about team</h2>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card shadow-3 h-24rem">
+                  <div class="card-body">
+                    <div class="d-flex text-yellow gap-1 mb-6">
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                    </div>
+                    <p class="card-text text-body-secondary line-clamp-8">
+                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                    <img src="assets/img/avatar/avatar-female-1.webp" alt="Avatar" height="48" width="48" />
+                    <div class="w-75">
+                      <h5 class="text-truncate mb-1">Esther Howard</h5>
+                      <div class="text-body-tertiary text-truncate fw-bold">HR Business Partner at GitHub</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card shadow-3 h-24rem">
+                  <div class="card-body">
+                    <div class="d-flex text-yellow gap-1 mb-6">
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                    </div>
+                    <p class="card-text text-body-secondary line-clamp-8">
+                      Facilisis mauris sit amet massa vitae tortor condimentum. Pulvinar etiam non quam lacus suspendisse. Amet minim mollit non deserunt.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                    <img src="assets/img/avatar/avatar-female-2.webp" alt="Avatar" height="48" width="48" />
+                    <div class="w-75">
+                      <h5 class="text-truncate mb-1">Leslie Alexander</h5>
+                      <div class="text-body-tertiary text-truncate fw-bold">Project Manager at Netflix</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card shadow-3 h-24rem">
+                  <div class="card-body">
+                    <div class="d-flex text-yellow gap-1 mb-6">
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                    </div>
+                    <p class="card-text text-body-secondary line-clamp-8">
+                      consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                    <img src="assets/img/avatar/avatar-male-1.webp" alt="Avatar" height="48" width="48" />
+                    <div class="w-75">
+                      <h5 class="text-truncate mb-1">Marvin McKinney</h5>
+                      <div class="text-body-tertiary text-truncate fw-bold">Product Designer at Getarounds</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card shadow-3 h-24rem">
+                  <div class="card-body">
+                    <div class="d-flex text-yellow gap-1 mb-6">
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                    </div>
+                    <p class="card-text text-body-secondary line-clamp-8">
+                      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                    <img src="assets/img/avatar/avatar-male-2.webp" alt="Avatar" height="48" width="48" />
+                    <div class="w-75">
+                      <h5 class="text-truncate mb-1">Ralph Edwards</h5>
+                      <div class="text-body-tertiary text-truncate fw-bold">Marketing Manager at Square, Inc.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card shadow-3 h-24rem">
+                  <div class="card-body">
+                    <div class="d-flex text-yellow gap-1 mb-6">
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                    </div>
+                    <p class="card-text text-body-secondary line-clamp-8">
+                      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                    <img src="assets/img/avatar/avatar-female-3.webp" alt="Avatar" height="48" width="48" />
+                    <div class="w-75">
+                      <h5 class="text-truncate mb-1">Jane Cooper</h5>
+                      <div class="text-body-tertiary text-truncate fw-bold">Marketing Manager at Apple</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card shadow-3 h-24rem">
+                  <div class="card-body">
+                    <div class="d-flex text-yellow gap-1 mb-6">
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                      <span class="material-symbols-rounded fs-5">star</span>
+                    </div>
+                    <p class="card-text text-body-secondary line-clamp-8">
+                      In porta placerat faucibus urna sit. Nulla et lobortis diam scelerisque consectetur massa dui. Hac est eget purus augue tellus a amet porttitor proin.
+                    </p>
+                  </div>
+                  <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                    <img src="assets/img/avatar/avatar-male-3.webp" alt="Avatar" height="48" width="48" />
+                    <div class="w-75">
+                      <h5 class="text-truncate mb-1">Robert Fox</h5>
+                      <div class="text-body-tertiary text-truncate fw-bold">Project Manager at Facebook</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center justify-content-md-end gap-4 mt-12">
+              <button type="button" class="swiper-prev btn btn-white text-teal d-flex p-2">
+                <span class="material-symbols-rounded fs-3">chevron_left</span>
+              </button>
+              <button type="button" class="swiper-next btn btn-white text-teal d-flex p-2">
+                <span class="material-symbols-rounded fs-3">chevron_right</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="bg-dark text-white text-opacity-75 py-16 py-md-24">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4 col-lg-3 mb-12 mb-md-16">
+              <a href="#">
+                <img src="assets/img/logo-team-light.svg" alt="Team." height="28" width="86" />
+              </a>
+              <p class="mt-6 mb-0">
+                Collaboration platform <br />
+                for modern teams.
+              </p>
+            </div>
+            <div class="col-12 col-md-8 col-lg-3 mb-12 mb-md-16 order-lg-last">
+              <h5 class="text-light fw-normal mt-1 mb-4">Stay up to Date</h5>
+              <div class="pt-2 pb-3">Subscribe to our newsletter</div>
+              <form class="row pt-2">
+                <div class="col-12 col-md-10 col-lg-12">
+                  <div class="position-relative">
+                    <label class="visually-hidden">Email</label>
+                    <input type="email" placeholder="Email" class="form-control form-tint-white" />
+                    <button type="button" class="btn btn-tint-teal bg-transparent d-flex position-absolute end-0 top-50 translate-middle-y px-4">
+                      <span class="material-symbols-rounded">send</span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 mb-12 mb-md-0">
+              <h5 class="text-light fw-normal mt-1 mb-4">Company</h5>
+              <ul class="list-unstyled mb-0">
+                <li class="pt-2 pb-3">
+                  <a href="#" class="link-white link-opacity-75 link-opacity-100-hover text-decoration-none">Product</a>
+                </li>
+                <li class="pt-2 pb-3">
+                  <a href="#" class="link-white link-opacity-75 link-opacity-100-hover text-decoration-none">Blog</a>
+                </li>
+                <li class="pt-2 pb-3">
+                  <a href="#" class="link-white link-opacity-75 link-opacity-100-hover text-decoration-none">Support</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2 mb-12 mb-md-0">
+              <h5 class="text-light fw-normal mt-1 mb-4">Features</h5>
+              <ul class="list-unstyled mb-0">
+                <li class="pt-2 pb-3">
+                  <a href="#" class="link-white link-opacity-75 link-opacity-100-hover text-decoration-none">Screen Sharing</a>
+                </li>
+                <li class="pt-2 pb-3">
+                  <a href="#" class="link-white link-opacity-75 link-opacity-100-hover text-decoration-none">iOS & Android apps</a>
+                </li>
+                <li class="pt-2 pb-3">
+                  <a href="#" class="link-white link-opacity-75 link-opacity-100-hover text-decoration-none">File Sharing</a>
+                </li>
+                <li class="pt-2 pb-3">
+                  <a href="#" class="link-white link-opacity-75 link-opacity-100-hover text-decoration-none">User Management</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-4 col-lg-2">
+              <h5 class="text-light fw-normal mt-1 mb-4">Contact us</h5>
+              <ul class="list-unstyled mb-0">
+                <li class="pt-2 pb-3">
+                  <span>info@teamapp.com</span>
+                </li>
+                <li class="pt-2 pb-3">
+                  <span>(406) 555-0120</span>
+                </li>
+                <li class="pt-2 pb-3">
+                  <span>
+                    6391 Elgin St. Celina, <br />
+                    Delaware 10299
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="small mt-12 mt-md-16 mt-lg-32">© Copyright ChatApp inc.</div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

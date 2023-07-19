@@ -1,0 +1,2 @@
+.main-banner{min-height:100svh;background-image:url(../img/hero.webp);background-position:65% center;background-repeat:no-repeat;background-size:cover;position:relative}.main-banner::before{content:"";background-color:rgba(0,0,0,.3);position:absolute;top:0;height:100%;width:100%}@media(min-width: 768px){.main-banner{min-height:min(100svh,36rem);background-position:center center}}@media(min-width: 992px){.main-banner{min-height:min(100svh,48rem)}}
+/*# sourceMappingURL=index.min.css.map */

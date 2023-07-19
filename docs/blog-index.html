@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Team App - Blog Index</title>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,700,0..1,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/main.min.css" />
+    <link rel="stylesheet" href="assets/css/custom.min.css" />
+    <script defer src="assets/js/main.min.js"></script>
+  </head>
+  <body class="bg-light">
+    <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/logo-team-dark.svg" alt="Team." height="28" width="86" />
+        </a>
+        <button class="navbar-toggler border-0 d-flex d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar-offcanvas">
+          <span class="material-symbols-rounded fs-inherit">menu</span>
+        </button>
+        <div class="offcanvas offcanvas-end" id="navbar-offcanvas" tabindex="-1">
+          <div class="offcanvas-header py-6">
+            <h5 class="offcanvas-title fs-4">Menu</h5>
+            <button type="button" class="btn d-flex border-0 p-0" data-bs-dismiss="offcanvas">
+              <span class="material-symbols-rounded">close</span>
+            </button>
+          </div>
+          <div class="offcanvas-body align-items-lg-center pt-0 flex-lg-row-reverse">
+            <div class="d-flex gap-4 mb-4 mb-lg-0">
+              <button type="button" class="w-50 w-lg-auto btn btn-tint-dark bg-transparent border-dark border-opacity-10 border-lg-0">Log In</button>
+              <button type="button" class="w-50 w-lg-auto btn btn-tint-teal">Get Access</button>
+            </div>
+            <ul class="navbar-nav flex-grow-1">
+              <li class="nav-item">
+                <a class="nav-link mx-lg-3" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-3" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-3" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-3 active" href="blog-index.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-3" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="pt-10 pb-16 pt-md-16 pb-md-24">
+      <div class="container">
+        <h1 class="display-5 mb-6">Blog</h1>
+        <p class="text-body-secondary fs-5 mb-12 mb-md-16">Our latest web design tips, tricks, insights, and resources, hot off the presses.</p>
+      </div>
+      <div class="container px-0 px-md-8">
+        <div class="row mx-0 -mx-md-4">
+          <div class="col-12 col-md-6 col-lg-4 px-0 px-md-4">
+            <div class="card rounded-0 rounded-md border-top border-bottom border-top-md-0 border-bottom-md-0 shadow-md-3 h-md-31rem h-lg-32rem mb-2 mb-md-12">
+              <a href="blog-post.html" class="ratio ratio-16x9 rounded-top-md">
+                <img src="assets/img/thumbnail/post-1.webp" class="card-img-top object-fit-cover rounded-top-md" alt="10 Secret Tips for Managing a Remote Team" />
+              </a>
+              <div class="card-body pb-6">
+                <small class="text-body-tertiary fw-bold">12 January 2023</small>
+                <a href="blog-post.html" class="card-title h4 text-decoration-none line-clamp-2 mt-1 mb-4">10 Secret Tips for Managing a Remote Team</a>
+                <p class="card-text text-body-secondary line-clamp-4">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, quaerat beatae voluptate laborum nostrum odit veniam. Ducimus vitae illum sequi tempore, saepe nesciunt unde esse
+                  odio consectetur fugiat maxime ipsa.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                <a href="#">
+                  <img src="assets/img/avatar/avatar-male-1.webp" alt="Avatar" height="36" width="36" />
+                </a>
+                <a href="#" class="h5 text-truncate text-decoration-none mb-0">Albert Flores</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 px-0 px-md-4">
+            <div class="card rounded-0 rounded-md border-top border-bottom border-top-md-0 border-bottom-md-0 shadow-md-3 h-md-31rem h-lg-32rem mb-2 mb-md-12">
+              <a href="#" class="ratio ratio-16x9 rounded-top-md">
+                <img src="assets/img/thumbnail/post-2.webp" class="card-img-top object-fit-cover rounded-top-md" alt="Why Everything Looks the Same" />
+              </a>
+              <div class="card-body pb-6">
+                <small class="text-body-tertiary fw-bold">12 January 2023</small>
+                <a href="#" class="card-title h4 text-decoration-none line-clamp-2 mt-1 mb-4">Why Everything Looks the Same</a>
+                <p class="card-text text-body-secondary line-clamp-4">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, quaerat beatae voluptate laborum nostrum odit veniam. Ducimus vitae illum sequi tempore, saepe nesciunt unde esse
+                  odio consectetur fugiat maxime ipsa.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                <a href="#">
+                  <img src="assets/img/avatar/avatar-male-2.webp" alt="Avatar" height="36" width="36" />
+                </a>
+                <a href="#" class="h5 text-truncate text-decoration-none mb-0">Wade Warren</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 px-0 px-md-4">
+            <div class="card rounded-0 rounded-md border-top border-bottom border-top-md-0 border-bottom-md-0 shadow-md-3 h-md-31rem h-lg-32rem mb-2 mb-md-12">
+              <a href="#" class="ratio ratio-16x9 rounded-top-md">
+                <img src="assets/img/thumbnail/post-3.webp" class="card-img-top object-fit-cover rounded-top-md" alt="ChatGPT Is Constantly Tricked by People, but Who’s Fooling Who?" />
+              </a>
+              <div class="card-body pb-6">
+                <small class="text-body-tertiary fw-bold">12 January 2023</small>
+                <a href="#" class="card-title h4 text-decoration-none line-clamp-2 mt-1 mb-4">ChatGPT Is Constantly Tricked by People, but Who’s Fooling Who?</a>
+                <p class="card-text text-body-secondary line-clamp-4">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, quaerat beatae voluptate laborum nostrum odit veniam. Ducimus vitae illum sequi tempore, saepe nesciunt unde esse
+                  odio consectetur fugiat maxime ipsa.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                <a href="#">
+                  <img src="assets/img/avatar/avatar-male-3.webp" alt="Avatar" height="36" width="36" />
+                </a>
+                <a href="#" class="h5 text-truncate text-decoration-none mb-0">Ralph Edwards</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 px-0 px-md-4">
+            <div class="card rounded-0 rounded-md border-top border-bottom border-top-md-0 border-bottom-md-0 shadow-md-3 h-md-31rem h-lg-32rem mb-2 mb-md-12">
+              <a href="#" class="ratio ratio-16x9 rounded-top-md">
+                <img src="assets/img/thumbnail/post-4.webp" class="card-img-top object-fit-cover rounded-top-md" alt="Best books on UX Writing, Strategic Writing & Content Strategy" />
+              </a>
+              <div class="card-body pb-6">
+                <small class="text-body-tertiary fw-bold">12 January 2023</small>
+                <a href="#" class="card-title h4 text-decoration-none line-clamp-2 mt-1 mb-4">Best books on UX Writing, Strategic Writing & Content Strategy</a>
+                <p class="card-text text-body-secondary line-clamp-4">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, quaerat beatae voluptate laborum nostrum odit veniam. Ducimus vitae illum sequi tempore, saepe nesciunt unde esse
+                  odio consectetur fugiat maxime ipsa.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                <a href="#">
+                  <img src="assets/img/avatar/avatar-female-1.webp" alt="Avatar" height="36" width="36" />
+                </a>
+                <a href="#" class="h5 text-truncate text-decoration-none mb-0">Jane Cooper</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 px-0 px-md-4">
+            <div class="card rounded-0 rounded-md border-top border-bottom border-top-md-0 border-bottom-md-0 shadow-md-3 h-md-31rem h-lg-32rem mb-2 mb-md-12">
+              <a href="#" class="ratio ratio-16x9 rounded-top-md">
+                <img src="assets/img/thumbnail/post-5.webp" class="card-img-top object-fit-cover rounded-top-md" alt="A Designer’s take on AI" />
+              </a>
+              <div class="card-body pb-6">
+                <small class="text-body-tertiary fw-bold">12 January 2023</small>
+                <a href="#" class="card-title h4 text-decoration-none line-clamp-2 mt-1 mb-4">A Designer’s take on AI</a>
+                <p class="card-text text-body-secondary line-clamp-4">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, quaerat beatae voluptate laborum nostrum odit veniam. Ducimus vitae illum sequi tempore, saepe nesciunt unde esse
+                  odio consectetur fugiat maxime ipsa.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                <a href="#">
+                  <img src="assets/img/avatar/avatar-female-2.webp" alt="Avatar" height="36" width="36" />
+                </a>
+                <a href="#" class="h5 text-truncate text-decoration-none mb-0">Kristin Watson</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 px-0 px-md-4">
+            <div class="card rounded-0 rounded-md border-top border-bottom border-top-md-0 border-bottom-md-0 shadow-md-3 h-md-31rem h-lg-32rem mb-2 mb-md-12">
+              <a href="#" class="ratio ratio-16x9 rounded-top-md">
+                <img src="assets/img/thumbnail/post-6.webp" class="card-img-top object-fit-cover rounded-top-md" alt="5 cognitive biases to avoid in user research" />
+              </a>
+              <div class="card-body pb-6">
+                <small class="text-body-tertiary fw-bold">12 January 2023</small>
+                <a href="#" class="card-title h4 text-decoration-none line-clamp-2 mt-1 mb-4">5 cognitive biases to avoid in user research</a>
+                <p class="card-text text-body-secondary line-clamp-4">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, quaerat beatae voluptate laborum nostrum odit veniam. Ducimus vitae illum sequi tempore, saepe nesciunt unde esse
+                  odio consectetur fugiat maxime ipsa.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                <a href="#">
+                  <img src="assets/img/avatar/avatar-female-3.webp" alt="Avatar" height="36" width="36" />
+                </a>
+                <a href="#" class="h5 text-truncate text-decoration-none mb-0">Brooklyn Simmons</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 px-0 px-md-4">
+            <div class="card rounded-0 rounded-md border-top border-bottom border-top-md-0 border-bottom-md-0 shadow-md-3 h-md-31rem h-lg-32rem mb-2 mb-md-12">
+              <a href="#" class="ratio ratio-16x9 rounded-top-md">
+                <img src="assets/img/thumbnail/post-7.webp" class="card-img-top object-fit-cover rounded-top-md" alt="How to use huge type on the web" />
+              </a>
+              <div class="card-body pb-6">
+                <small class="text-body-tertiary fw-bold">12 January 2023</small>
+                <a href="#" class="card-title h4 text-decoration-none line-clamp-2 mt-1 mb-4">How to use huge type on the web</a>
+                <p class="card-text text-body-secondary line-clamp-4">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, quaerat beatae voluptate laborum nostrum odit veniam. Ducimus vitae illum sequi tempore, saepe nesciunt unde esse
+                  odio consectetur fugiat maxime ipsa.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                <a href="#">
+                  <img src="assets/img/avatar/avatar-male-1.webp" alt="Avatar" height="36" width="36" />
+                </a>
+                <a href="#" class="h5 text-truncate text-decoration-none mb-0">Ralph Edwards</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 px-0 px-md-4">
+            <div class="card rounded-0 rounded-md border-top border-bottom border-top-md-0 border-bottom-md-0 shadow-md-3 h-md-31rem h-lg-32rem mb-2 mb-md-12">
+              <a href="#" class="ratio ratio-16x9 rounded-top-md">
+                <img src="assets/img/thumbnail/post-8.webp" class="card-img-top object-fit-cover rounded-top-md" alt="Legibility in User Interfaces" />
+              </a>
+              <div class="card-body pb-6">
+                <small class="text-body-tertiary fw-bold">12 January 2023</small>
+                <a href="#" class="card-title h4 text-decoration-none line-clamp-2 mt-1 mb-4">Legibility in User Interfaces</a>
+                <p class="card-text text-body-secondary line-clamp-4">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, quaerat beatae voluptate laborum nostrum odit veniam. Ducimus vitae illum sequi tempore, saepe nesciunt unde esse
+                  odio consectetur fugiat maxime ipsa.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                <a href="#">
+                  <img src="assets/img/avatar/avatar-male-2.webp" alt="Avatar" height="36" width="36" />
+                </a>
+                <a href="#" class="h5 text-truncate text-decoration-none mb-0">Darrell Steward</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 px-0 px-md-4">
+            <div class="card rounded-0 rounded-md border-top border-bottom border-top-md-0 border-bottom-md-0 shadow-md-3 h-md-31rem h-lg-32rem mb-2 mb-md-12">
+              <a href="#" class="ratio ratio-16x9 rounded-top-md">
+                <img src="assets/img/thumbnail/post-9.webp" class="card-img-top object-fit-cover rounded-top-md" alt="AI tools to assist your design and development workflow" />
+              </a>
+              <div class="card-body pb-6">
+                <small class="text-body-tertiary fw-bold">12 January 2023</small>
+                <a href="#" class="card-title h4 text-decoration-none line-clamp-2 mt-1 mb-4">AI tools to assist your design and development workflow</a>
+                <p class="card-text text-body-secondary line-clamp-4">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, quaerat beatae voluptate laborum nostrum odit veniam. Ducimus vitae illum sequi tempore, saepe nesciunt unde esse
+                  odio consectetur fugiat maxime ipsa.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                <a href="#">
+                  <img src="assets/img/avatar/avatar-male-3.webp" alt="Avatar" height="36" width="36" />
+                </a>
+                <a href="#" class="h5 text-truncate text-decoration-none mb-0">Jerome Bell</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 px-0 px-md-4">
+            <div class="card rounded-0 rounded-md border-top border-bottom border-top-md-0 border-bottom-md-0 shadow-md-3 h-md-31rem h-lg-32rem mb-2 mb-md-12">
+              <a href="#" class="ratio ratio-16x9 rounded-top-md">
+                <img src="assets/img/thumbnail/post-10.webp" class="card-img-top object-fit-cover rounded-top-md" alt="Accessibility: The Biggest Scam in UX" />
+              </a>
+              <div class="card-body pb-6">
+                <small class="text-body-tertiary fw-bold">12 January 2023</small>
+                <a href="#" class="card-title h4 text-decoration-none line-clamp-2 mt-1 mb-4">Accessibility: The Biggest Scam in UX</a>
+                <p class="card-text text-body-secondary line-clamp-4">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, quaerat beatae voluptate laborum nostrum odit veniam. Ducimus vitae illum sequi tempore, saepe nesciunt unde esse
+                  odio consectetur fugiat maxime ipsa.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                <a href="#">
+                  <img src="assets/img/avatar/avatar-female-1.webp" alt="Avatar" height="36" width="36" />
+                </a>
+                <a href="#" class="h5 text-truncate text-decoration-none mb-0">Annette Black</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 px-0 px-md-4">
+            <div class="card rounded-0 rounded-md border-top border-bottom border-top-md-0 border-bottom-md-0 shadow-md-3 h-md-31rem h-lg-32rem mb-2 mb-md-12">
+              <a href="#" class="ratio ratio-16x9 rounded-top-md">
+                <img src="assets/img/thumbnail/post-11.webp" class="card-img-top object-fit-cover rounded-top-md" alt="The Future Of Design Is Open Source" />
+              </a>
+              <div class="card-body pb-6">
+                <small class="text-body-tertiary fw-bold">12 January 2023</small>
+                <a href="#" class="card-title h4 text-decoration-none line-clamp-2 mt-1 mb-4">The Future Of Design Is Open Source</a>
+                <p class="card-text text-body-secondary line-clamp-4">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, quaerat beatae voluptate laborum nostrum odit veniam. Ducimus vitae illum sequi tempore, saepe nesciunt unde esse
+                  odio consectetur fugiat maxime ipsa.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                <a href="#">
+                  <img src="assets/img/avatar/avatar-female-2.webp" alt="Avatar" height="36" width="36" />
+                </a>
+                <a href="#" class="h5 text-truncate text-decoration-none mb-0">Bessie Cooper</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 px-0 px-md-4">
+            <div class="card rounded-0 rounded-md border-top border-bottom border-top-md-0 border-bottom-md-0 shadow-md-3 h-md-31rem h-lg-32rem mb-2 mb-md-12">
+              <a href="#" class="ratio ratio-16x9 rounded-top-md">
+                <img
+                  src="assets/img/thumbnail/post-12.webp"
+                  class="card-img-top object-fit-cover rounded-top-md"
+                  alt="I spent $15 in DALL·E 2 credits creating this AI image, and here’s what I learned" />
+              </a>
+              <div class="card-body pb-6">
+                <small class="text-body-tertiary fw-bold">12 January 2023</small>
+                <a href="#" class="card-title h4 text-decoration-none line-clamp-2 mt-1 mb-4">I spent $15 in DALL·E 2 credits creating this AI image, and here’s what I learned</a>
+                <p class="card-text text-body-secondary line-clamp-4">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, quaerat beatae voluptate laborum nostrum odit veniam. Ducimus vitae illum sequi tempore, saepe nesciunt unde esse
+                  odio consectetur fugiat maxime ipsa.
+                </p>
+              </div>
+              <div class="card-footer bg-transparent d-flex align-items-center gap-4 pt-0">
+                <a href="#">
+                  <img src="assets/img/avatar/avatar-female-3.webp" alt="Avatar" height="36" width="36" />
+                </a>
+                <a href="#" class="h5 text-truncate text-decoration-none mb-0">Dianne Russell</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center justify-content-md-end mt-10 mt-md-0 gap-4">
+          <button type="button" class="swiper-prev btn btn-white text-teal d-flex p-2" disabled>
+            <span class="material-symbols-rounded fs-3">chevron_left</span>
+          </button>
+          <button type="button" class="swiper-next btn btn-white text-teal d-flex p-2">
+            <span class="material-symbols-rounded fs-3">chevron_right</span>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-white text-opacity-75 py-16 py-md-24">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3 mb-12 mb-md-16">
+            <a href="#">
+              <img src="assets/img/logo-team-light.svg" alt="Team." height="28" width="86" />
+            </a>
+            <p class="mt-6 mb-0">
+              Collaboration platform <br />
+              for modern teams.
+            </p>
+          </div>
+          <div class="col-12 col-md-8 col-lg-3 mb-12 mb-md-16 order-lg-last">
+            <h5 class="text-light fw-normal mt-1 mb-4">Stay up to Date</h5>
+            <div class="pt-2 pb-3">Subscribe to our newsletter</div>
+            <form class="row pt-2">
+              <div class="col-12 col-md-10 col-lg-12">
+                <div class="position-relative">
+                  <label class="visually-hidden">Email</label>
+                  <input type="email" placeholder="Email" class="form-control form-tint-white" />
+                  <button type="button" class="btn btn-tint-teal bg-transparent d-flex position-absolute end-0 top-50 translate-middle-y px-4">
+                    <span class="material-symbols-rounded">send</span>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2 mb-12 mb-md-0">
+            <h5 class="text-light fw-normal mt-1 mb-4">Company</h5>
+            <ul class="list-unstyled mb-0">
+              <li class="pt-2 pb-3">
+                <a href="#" class="link-white link-opacity-75 link-opacity-100-hover text-decoration-none">Product</a>
+              </li>
+              <li class="pt-2 pb-3">
+                <a href="#" class="link-white link-opacity-75 link-opacity-100-hover text-decoration-none">Blog</a>
+              </li>
+              <li class="pt-2 pb-3">
+                <a href="#" class="link-white link-opacity-75 link-opacity-100-hover text-decoration-none">Support</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2 mb-12 mb-md-0">
+            <h5 class="text-light fw-normal mt-1 mb-4">Features</h5>
+            <ul class="list-unstyled mb-0">
+              <li class="pt-2 pb-3">
+                <a href="#" class="link-white link-opacity-75 link-opacity-100-hover text-decoration-none">Screen Sharing</a>
+              </li>
+              <li class="pt-2 pb-3">
+                <a href="#" class="link-white link-opacity-75 link-opacity-100-hover text-decoration-none">iOS & Android apps</a>
+              </li>
+              <li class="pt-2 pb-3">
+                <a href="#" class="link-white link-opacity-75 link-opacity-100-hover text-decoration-none">File Sharing</a>
+              </li>
+              <li class="pt-2 pb-3">
+                <a href="#" class="link-white link-opacity-75 link-opacity-100-hover text-decoration-none">User Management</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2">
+            <h5 class="text-light fw-normal mt-1 mb-4">Contact us</h5>
+            <ul class="list-unstyled mb-0">
+              <li class="pt-2 pb-3">
+                <span>info@teamapp.com</span>
+              </li>
+              <li class="pt-2 pb-3">
+                <span>(406) 555-0120</span>
+              </li>
+              <li class="pt-2 pb-3">
+                <span>
+                  6391 Elgin St. Celina, <br />
+                  Delaware 10299
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="small mt-12 mt-md-16 mt-lg-32">© Copyright ChatApp inc.</div>
+      </div>
+    </footer>
+  </body>
+</html>
