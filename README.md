@@ -1,6 +1,6 @@
 # bs-team-app
 
-Team app landing page
+Team app landing page built with BootstrapCSS
 
 [Preview](https://indrasukma.github.io/bs-team-app/)
 
